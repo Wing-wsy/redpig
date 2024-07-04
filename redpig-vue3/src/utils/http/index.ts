@@ -19,7 +19,7 @@ const prefix = "/api";
 // 相关配置请参考：www.axios-js.com/zh-cn/docs/#axios-request-config-1
 const defaultConfig: AxiosRequestConfig = {
   // 请求超时时间
-  timeout: 10000,
+  timeout: 20000,
   headers: {
     Accept: "application/json, text/plain, */*",
     "Content-Type": "application/json",
