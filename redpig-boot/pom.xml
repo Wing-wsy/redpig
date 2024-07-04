@@ -157,7 +157,7 @@
                 <configuration>
                     <executable>true</executable>
 <!--                    打包后的jar包名称-->
-<!--                    <finalName>${project.artifactId}-${profiles.active}</finalName>-->
+                    <finalName>${project.artifactId}</finalName>
                 </configuration>
                 <executions>
                     <execution>
