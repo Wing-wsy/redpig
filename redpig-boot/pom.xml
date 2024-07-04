@@ -154,7 +154,20 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <executable>true</executable>
+<!--                    打包后的jar包名称-->
+<!--                    <finalName>${project.artifactId}-${profiles.active}</finalName>-->
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
+
             <!-- 配置跳过测试 -->
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>

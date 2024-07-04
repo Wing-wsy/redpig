@@ -1,0 +1,2 @@
+2024-07-03 18:23:45.230 [restartedMain] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.redpig]' package. Please check your configuration.
+2024-07-03 18:41:52.948 [restartedMain] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] - No MyBatis mapper was found in '[com.redpig]' package. Please check your configuration.

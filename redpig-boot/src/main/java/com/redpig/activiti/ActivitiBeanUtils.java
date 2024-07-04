@@ -1,3 +1,4 @@
+/*
 package com.redpig.activiti;
 
 import org.activiti.engine.*;
@@ -41,5 +42,7 @@ public class ActivitiBeanUtils {
         ApplicationContextUtil.registerSingletonBean("historyService",historyService);
         ApplicationContextUtil.registerSingletonBean("repositoryService",repositoryService);
         ApplicationContextUtil.registerSingletonBean("runtimeService",runtimeService);
+
     }
 }
+*/

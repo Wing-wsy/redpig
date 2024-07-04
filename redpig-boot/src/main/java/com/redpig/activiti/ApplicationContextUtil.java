@@ -1,3 +1,4 @@
+/*
 package com.redpig.activiti;
 
 import org.springframework.beans.BeansException;
@@ -23,13 +24,15 @@ public class ApplicationContextUtil implements ApplicationContextAware {
         activitiBeanUtils.init();
     }
 
-    /**
+    */
+/**
      * 动态注入单例bean实例
      *
      * @param beanName        bean名称
      * @param singletonObject 单例bean实例
      * @return 注入实例
-     */
+     *//*
+
     public static Object registerSingletonBean(String beanName, Object singletonObject) {
 
         //将applicationContext转换为ConfigurableApplicationContext
@@ -41,7 +44,15 @@ public class ApplicationContextUtil implements ApplicationContextAware {
         //动态注册bean.
         defaultListableBeanFactory.registerSingleton(beanName, singletonObject);
 
+        String[] names = applicationContext.getBeanDefinitionNames();
+        int i = 1;
+        for (String name : names) {
+            System.out.println(i + "-加载："+ name);
+            i++;
+        }
+
         //获取动态注册的bean.
         return configurableApplicationContext.getBean(beanName);
     }
 }
+*/

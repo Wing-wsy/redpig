@@ -4,13 +4,239 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bda187cc-ceff-451b-bf18-c69eed9a5005" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+    <list default="true" id="bda187cc-ceff-451b-bf18-c69eed9a5005" name="Changes" comment="test commit">
+      <change afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/error/log-error-2024-07-03.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/info/log-info-2024-07-03.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/warn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/warn/log-warn-2024-07-03.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/redpig/activiti/ActivitiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/activiti/ActivitiConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/aspect/OperLogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/common/Constant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/config/MyBatisPlusFieldConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/config/SwaggerAddtion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/ArticleClassController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/ArticleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/ExceptionLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/GoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/IconController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/LeaveController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/OperationLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/ProcessDefinitionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/QuartzController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/QuartzJobController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/TableInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/TablePropertyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/TaskController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/UploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/index/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/system/DeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/system/MenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/system/PermController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/system/RegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/system/RoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/system/RouteController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/controller/system/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/ArticleClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/Dept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/ExceptionLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/FlowLeave.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/FlowTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/Icon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/JobAndTrigger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/MenuPerm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/MenuRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/OperationLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/Perm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/QuartzJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/TableInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/TableProperty.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/UserPerm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/entity/UserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/generator/util/JDBCUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/generator/util/StringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/generator/util/TypeUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/generator/vo/ClassVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/generator/vo/FieldVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/job/BaseJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/job/HelloJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/job/NewJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/ArticleClassMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/ArticleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/DeptMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/ExceptionLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/FlowLeaveMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/FlowTaskMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/GoodsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/IconMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/JobAndTriggerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/MenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/MenuPermMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/MenuRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/OperationLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/OrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/PermMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/ProcessDefinitionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/QuartzJobMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/TableInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/TablePropertyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/UserPermMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/mapper/UserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/security/auth/MyAuthorizationManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/security/filter/JwtAuthenticationTokenFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/security/filter/LoginAuthenticationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/security/handler/LoginFailureHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/security/handler/LoginSuccessHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/security/handler/NoAuthAccessDeniedHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IArticleClassService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IArticleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IDeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IExceptionLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IFlowLeaveService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IFlowTaskService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IGoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IIconService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IJobAndTriggerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IMenuPermService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IMenuRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IOperationLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IPermService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IProcessDefinitionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IQuartzJobService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/ITableInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/ITablePropertyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IUserPermService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IUserRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/ArticleClassServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/ArticleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/ExceptionLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/FlowLeaveServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/IconServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/JobAndTriggerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/MenuPermServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/MenuRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/MenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/OperationLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/PermServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/ProcessDefinitionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/QuartzJobServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/TableInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/TablePropertyServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/TaskServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/UserPermServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/UserRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/util/ActivitiUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/util/Asserts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/util/AuthTools$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/util/AuthTools.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/util/DateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/util/FolderToZipUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/util/IOCloseUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/util/JwtAuthentication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/util/JwtUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/util/RSAUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/util/RedPigTools.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/util/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/util/ResultCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/util/RouteTools.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/vo/AuthRolePermVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/vo/JobVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/vo/MenuPermTreeVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/vo/ProcessDefinitionVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/vo/ProcessInstanceVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/vo/RouteVO$Meta.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/vo/RouteVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/redpig/vo/TablePropertyVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generator/client/add.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generator/client/hook.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generator/client/list.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generator/client/rule.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generator/client/types.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generator/server/Controller.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generator/server/Entity.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generator/server/IService.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generator/server/Mapper.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generator/server/Mapping.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generator/server/ServiceImpl.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generator/sql/SQL.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/GoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/JobMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/LeaveMapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/PermMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/TableInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/TablePropertyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/task/oa-leave.bpmn20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/task/oa-leave.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/task/oa-leave.bpmn20.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/task/order.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/logs/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/logs/info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/logs/warn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/redpig-boot-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/redpig-boot-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/redpig/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/redpig/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/redpig/activiti/ActivitiBeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/redpig/activiti/ActivitiBeanUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/redpig/activiti/ApplicationContextUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/redpig/activiti/ApplicationContextUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redpig-vue3/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../redpig-vue3/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redpig-vue3/src/utils/http/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../redpig-vue3/src/utils/http/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redpig-vue3/src/utils/http/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../redpig-vue3/src/utils/http/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -32,22 +258,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/wing/architect/github/component/redpig-boot&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/wing/architect/github/component/redpig/redpig-boot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager" selected="JAR Application.redpig-boot-1.0-SNAPSHOT.jar">
+    <configuration name="redpig-boot-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/redpig-boot-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="redpig-boot" />
@@ -56,6 +298,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.redpig-boot-1.0-SNAPSHOT.jar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,7 +313,19 @@
       <option name="presentableId" value="Default" />
       <updated>1719805653367</updated>
       <workItem from="1719805655529" duration="369000" />
+      <workItem from="1719806884169" duration="2623000" />
+      <workItem from="1719974873207" duration="19063000" />
+      <workItem from="1720056576260" duration="3742000" />
     </task>
+    <task id="LOCAL-00001" summary="test commit">
+      <option name="closed" value="true" />
+      <created>1719806957710</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719806957710</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +335,7 @@
     <option name="OPEN_GENERIC_TABS">
       <map>
         <entry key="35551cc3-bee2-499e-97c3-5034284d34e9" value="TOOL_WINDOW" />
+        <entry key="cf700582-341b-4565-9596-cc8905d5e481" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="TAB_STATES">
@@ -105,7 +365,62 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="cf700582-341b-4565-9596-cc8905d5e481">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/wing/architect/github/component/redpig/redpig-boot" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/redpig/activiti/ActivitiBeanUtils.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/redpig/activiti/ActivitiBeanUtils.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/redpig/activiti/ActivitiBeanUtils.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -16,7 +16,7 @@
 vue3
 pinia
 typescript
-前端模板:vue-pure-admin https://gitee.com/yiming_chang/vue-pure-admin
+前端模板:vue-pure-admin 【git地址：https://gitee.com/yiming_chang/vue-pure-admin  项目地址：https://pure-admin.github.io/vue-pure-admin/#/system/menu/index】
     vue3+element-plus
 
 系统环境

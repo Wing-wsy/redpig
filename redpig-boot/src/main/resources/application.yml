@@ -50,13 +50,13 @@ springdoc:
       paths-to-match: '/**'
       packages-to-scan: com.redpig.controller
 
-mybatis-plus:
-  global-config:
-    db-config:
-      logic-delete-field: deleteStatus
-      logic-delete-value: 0
-      logic-not-delete-value: 1
-  configuration:
-    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+#mybatis-plus:
+#  global-config:
+#    db-config:
+#      logic-delete-field: deleteStatus
+#      logic-delete-value: 0
+#      logic-not-delete-value: 1
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
 knife4j:
   enable: true #启用knife文档
