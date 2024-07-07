@@ -50,6 +50,12 @@ springdoc:
       paths-to-match: '/**'
       packages-to-scan: com.redpig.controller
 
+# 开启日志打印
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
 #mybatis-plus:
 #  global-config:
 #    db-config:

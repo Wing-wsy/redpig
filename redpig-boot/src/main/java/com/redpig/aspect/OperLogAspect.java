@@ -15,6 +15,7 @@ import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -144,9 +145,19 @@ public class OperLogAspect {
         }
         // 操作版本
 
-        //这里测试就只打印下日志类容 实际应该是使用service或者mapper进行入库 或者 使用队列推送给专门处理日志的服务
-        log.info(JSON.toJSONString(operlog));
-        operationLogService.save(operlog);
+        //这里测试就只打印下日志内容 实际应该是使用service或者mapper进行入库 或者 使用队列推送给专门处理日志的服务
+        // TODO 记录响应日志
+        log.info("请求日志：{}", JSON.toJSONString(operlog));
+//        operationLogService.save(operlog);
+    }
+
+    /**
+     *  可以通过前置通知打印请求入参数
+     */
+    // TODO 只要在接口标注了 @Operation 就可以打印日志，可以自定义注解来打印
+    @Before("operLogPoinCut()")
+    public void saveRequestParams(JoinPoint joinPoint) {
+        System.out.println("入参打印");
     }
 
     /**
@@ -211,7 +222,7 @@ public class OperLogAspect {
             excepLog.setOperCreateTime(new Date());
 
             log.info(JSON.toJSONString(excepLog));
-            exceptionLogService.save(excepLog);
+//            exceptionLogService.save(excepLog);
         } catch (Exception ex) {
             ex.printStackTrace();
         }

@@ -35,8 +35,7 @@ public class RouteTools {
 
         menu(roots,routes);
 
-        System.out.println(JSONUtil.toJsonPrettyStr(routes));
-        log.info(JSONUtil.toJsonPrettyStr(routes));
+        log.info("当前用户路由信息：{}", JSONUtil.toJsonPrettyStr(routes));
 
         return routes;
     }

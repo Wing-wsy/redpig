@@ -16,6 +16,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+/**
+ *  登录成功处理器
+ */
 @Slf4j
 public class LoginSuccessHandler implements AuthenticationSuccessHandler {
 
@@ -24,6 +27,7 @@ public class LoginSuccessHandler implements AuthenticationSuccessHandler {
 
         User user = (User) auth.getPrincipal();
 
+        //生成token
         String token = JwtUtils.token(auth);
         response.addHeader("token", token);
 

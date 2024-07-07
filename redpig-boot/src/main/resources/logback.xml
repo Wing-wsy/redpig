@@ -89,7 +89,7 @@
 
     <!-- root指定所有的打印日志级别（如果使用<logger>标签指定了打印级别，则使用logger指定的） -->
     <!-- 从低到高为（不区分大小写）：All < Trace < Debug < Info < Warn < Error < Fatal < OFF-->
-    <root level="Error">
+    <root level="Info">
         <appender-ref ref="Console"/>
         <appender-ref ref="RollingFileInfo"/>
         <appender-ref ref="RollingFileWarn"/>

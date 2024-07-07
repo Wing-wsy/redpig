@@ -35,6 +35,7 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+        //放行的拦截请求
         http.authorizeHttpRequests(e->e.requestMatchers(Constant.annos).permitAll());
         http.authorizeHttpRequests(e->e.requestMatchers(RegexRequestMatcher.regexMatcher("^\\S*[css|js]$")).permitAll());
         http.authorizeHttpRequests(e->e.anyRequest().access(authorizationManager));
@@ -57,7 +58,9 @@ public class SecurityConfig {
 
     public LoginAuthenticationFilter loginAuthenticationFilter() throws Exception {
         LoginAuthenticationFilter filter = new LoginAuthenticationFilter();
+        // 登录成功处理
         filter.setAuthenticationSuccessHandler(new LoginSuccessHandler());
+        // 登录失败处理
         filter.setAuthenticationFailureHandler(new LoginFailureHandler());
         //LoginAuthenticationFilter 中需要使用到AuthenticationManager 不加会出现空指针
         filter.setAuthenticationManager(authenticationConfiguration.getAuthenticationManager());

@@ -12,6 +12,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import java.util.Date;
 
 public class JwtUtils {
+    // 密钥
     private static final String secret = "111111";
     /**
      *  生成JWT token
@@ -19,7 +20,7 @@ public class JwtUtils {
     public static String token(Authentication authentication){
         return JWT.create()
                 .withExpiresAt(new Date(System.currentTimeMillis()+ 1000L * 60 * 60 * 24 * 30))  //设置过期时间:单位毫秒
-                .withAudience(JSON.toJSONString(authentication)) //设置接受方信息，一般时登录用户
+                .withAudience(JSON.toJSONString(authentication)) //设置接受方信息，一般是登录用户
                 .sign(Algorithm.HMAC256(secret));
     }
 
